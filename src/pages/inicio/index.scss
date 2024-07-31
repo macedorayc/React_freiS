@@ -1,11 +1,54 @@
-.pagina-inicio{
-    .cabeçalho{
-        .frei{
-            width: 40px;
-            height: 50px;
-            margin: 30px;
-   
-}     
-        
+.pagina-inicio {
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+
+    .cabeçalho {
+
+        display: flex;
+        background-color: #6278F7;
+        align-items: center;
+        color: #f5f4f4;
+        justify-content: space-between;
+        padding: 15px 40px;
+
+        .imh1{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        h1{
+          font-size: 20px 
+        }
+      
+        .frei {
+            height: 55px;
+        }
+
+        nav{
+           display: flex;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;  
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+
+        nav ul li a {
+            color: #f5f4f4;
+            text-decoration: none;
+            font-weight: 400;
+            
+          
+        }
+    }
+    .secao{
+        margin: 62px;
+
     }
 }
