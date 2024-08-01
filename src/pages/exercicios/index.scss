@@ -1,0 +1,66 @@
+.pagina-gramas {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+
+    .secao {
+        .exe1 {
+            .vazia {
+                background-color: #FFCE37;
+            }
+
+        }
+
+
+        .exe3 {
+            .gramas {
+                width: 616px;
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end; // Alinha os itens ao final
+        
+                .input {
+                    display: flex;
+                    align-items: flex-end; // Alinha os inputs à direita
+                    gap: 20px; // Espaçamento entre os elementos
+        
+                    .acai {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-end; 
+                       
+                        width: 200px;
+        
+                        h2 {
+                            align-self: flex-end;
+                            margin-left: 4px;
+                            font-size: 18px;
+                        }
+        
+                        .texto {
+                            width: 45%;
+                            margin: 0;
+
+                        }
+                    }
+                }
+        
+                button {
+                    width: 150px; 
+                    margin-top: 20px; 
+                    align-self: flex-end;
+            }
+
+           
+        }
+        .total{
+            
+           position: relative;
+           left: 87px;
+             
+            margin-top: 20px; 
+                
+            } 
+    }
+}
+}
