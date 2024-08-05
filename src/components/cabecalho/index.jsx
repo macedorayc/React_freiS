@@ -1,6 +1,7 @@
 import './index.scss';
 import { Link } from 'react-router-dom';
 
+
 export default function Cabecalho() {
     
     return(
@@ -15,7 +16,6 @@ export default function Cabecalho() {
                 <ul>
                     <li><Link to='/'>Inicio</Link></li>
                     <li><Link to='/sobre'>Sobre</Link></li>
-                    <li><Link to='/exercicios'>Exercicio</Link></li>
                 </ul>
             </nav>
 
