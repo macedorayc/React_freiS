@@ -10,15 +10,15 @@ export default function Inicio() {
                 <h1>Escolha um treino...</h1>
 
                 <div className='exercicios'>
-                    
+                <Link to = '/ex1'>
                     <div className='card'>
                         <div className='um'></div>
-                        <Link to = '/ex1'>
+                     
                         <h2>Cupom de desconto</h2>
-                        </Link>
+                       
                         <h3>Exercício 1</h3>
                     </div>
-                   
+                    </Link>
                     
                     
                     <div className='card'>
