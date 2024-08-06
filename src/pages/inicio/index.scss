@@ -1,53 +1,77 @@
 .pagina-inicio {
-    font-family: 'Roboto', 'Arial';
+
+    min-height: 100vh;
+
+    background-color: #F5F6FA;
+   
+    section {
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+        margin-left: 6rem;
+        margin-right: 6rem;
+        gap: 2rem;
+
+        h1 {
+            font: 700 26px 'Roboto';
+        }
+
+        .exercicios {
+            display: flex;
+            flex-direction: row;
+            gap: 3.5rem;
 
 
-    .menu {
-        padding: 80px;
+           .card {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            
 
-        .cards {
-            margin-top: 36px;
+             background-color: #fff;
+             width: 215px;
+             height: 158px;
+             border-radius: 12px;
 
-            .link {
-                text-decoration: none;
-            }
-
-            .card {
-                width: 215px;
-                height: 160px;
+            .um {
+                background-color: #FFCE37;
+                width: 60px;
+                height: 60px;
                 border-radius: 12px;
-                padding-top: 10px;
-                text-align: center;
-                align-content: center;
-                background-color: rgb(238, 238, 238);
-                text-decoration: none;
 
-                .retangulo {
-                    margin-left: 50%;
-                    transform: translateX(-50%);
-                    height: 60px;
-                    width: 60px;
-                    border-radius: 12px;
-                }
-
-                .laranja {
-                    background-color: orange;
-                }
-
-                .titulo {
-                    font-size: 16px;
-                    font-weight: bold;
-                    margin-top: 10px;
-                    color: #383131;
-                }
-
-                .subtitulo {
-                    font-size: 16px;
-                    font-weight: lighter;
-                    margin-top: 10px;
-                    color: #383131;
-                }
             }
+
+            .dois {
+                background-color: #B3FF37;
+                width: 60px;
+                height: 60px;
+                border-radius: 12px;
+
+            }
+            
+            .tres {
+                background-color: #37FFF3;
+                width: 60px;
+                height: 60px;
+                border-radius: 12px;
+
+           }
+
+            
+             a,a:visited, a:link {
+                text-decoration: none;
+                font: 700 10px 'Roboto';
+                color: #383131;
+             }
+
+             h3 {
+                font: 500 14px 'Roboto';
+                color: #685e5e;
+             }
+           }
         }
     }
 }
