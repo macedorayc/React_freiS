@@ -10,38 +10,31 @@ export default function Inicio() {
                 <h1>Escolha um treino...</h1>
 
                 <div className='exercicios'>
-                <Link to = '/ex1'>
-                    <div className='card'>
-                        <div className='um'></div>
-                     
-                        <h2>Cupom de desconto</h2>
-                       
-                        <h3>Exercício 1</h3>
-                    </div>
+
+                    <Link to='/ex1'>
+                        <div className='card'>
+                            <div className='um'></div>
+                            <h2>Cupom de desconto</h2>
+                            <h3>Exercício 1</h3>
+                        </div>
                     </Link>
-                    
-                    
-                    <div className='card'>
-                        <div className='dois'></div>
-                        <Link to = '/ex2'>
-                        <h2>Converter Kg/gramas</h2>
 
-                        </Link>
-                        <h3>Exercício 2</h3>
-                    </div>
-                     
-                    
-                    
-                    <div className='card'>
-                        <div className='tres'></div>
-                        <Link to = '/ex3'>
-                        <h2>Valor total por quantidade</h2>
+                    <Link to='/ex2'>
+                        <div className='card'>
+                            <div className='dois'></div>
+                            <h2>Converter Kg/gramas</h2>
+                            <h3>Exercício 2</h3>
+                        </div>
+                    </Link>
 
-                        </Link>
-                        <h3>Exercício 3</h3>
-                    </div>    
-                   
-                
+                    <Link to='/ex3'>
+                        <div className='card'>
+                            <div className='tres'></div>
+                            <h2>Valor total por quantidade</h2>
+                            <h3>Exercício 3</h3>
+                        </div>
+                    </Link>
+
                 </div>
             </section>
         </div>
