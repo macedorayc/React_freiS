@@ -17,6 +17,7 @@ export default function TotalQtd() {
         setGrande(0)
         setMedio(0)
         setPequeno(0)
+
     }
 
 
@@ -36,8 +37,8 @@ export default function TotalQtd() {
             <div className='divisao'></div>
 
             <section className='quadro'>
-                <p>Implementar um programa em Javascript para calcular o <b>total de uma venda de açaí</b> a partir das quantidades compradas para cada tamanho: <b>pequeno, médio e grande,</b>
-                <br />sabendo que o valor do açaí é R$ 13,50; R$ 15,00 e R$ 17,50 respectivamente</p>
+                <p>Implementar um programa em Javascript para calcular o <b>total de uma venda de açaí</b> a partir das quantidades compradas para cada tamanho: <b>pequeno, médio e grande, </b>
+             sabendo que o valor do açaí é R$ 13,50; R$ 15,00 e R$ 17,50 respectivamente</p>
             </section>
 
             <section className='ex'>
@@ -63,7 +64,8 @@ export default function TotalQtd() {
                     <button onClick={total}>Executar</button>
                 </div>
 
-                <h3>Resultado: O total é R$ {resultado}</h3>
+                <h3>
+                    Resultado: O total é R$ {resultado}</h3>
             </section>
 
           

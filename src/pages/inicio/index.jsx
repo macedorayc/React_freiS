@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import Cabecalho from '../../components/cabecalho'
+import Exesdiv from '../../components/exesdiv'
 import './index.scss'
 
 export default function Inicio() {
@@ -11,29 +12,28 @@ export default function Inicio() {
 
                 <div className='exercicios'>
 
-                    <Link to='/ex1'>
-                        <div className='card'>
-                            <div className='um'></div>
-                            <h2>Cupom de desconto</h2>
-                            <h3>Exercício 1</h3>
-                        </div>
-                    </Link>
+                    <Exesdiv
+                        Link='/ex1'
+                        h2='Cupom de desconto'
+                        h3='Exercício 1'
+                        color='#FFCE37'
+                    />
 
-                    <Link to='/ex2'>
-                        <div className='card'>
-                            <div className='dois'></div>
-                            <h2>Converter Kg/gramas</h2>
-                            <h3>Exercício 2</h3>
-                        </div>
-                    </Link>
+                    <Exesdiv
+                        Link='/ex2'
+                        h2='Converter Kg/gramas'
+                        h3='Exercício 2'
+                        color='#B3FF37'
+                    />
 
-                    <Link to='/ex3'>
-                        <div className='card'>
-                            <div className='tres'></div>
-                            <h2>Valor total por quantidade</h2>
-                            <h3>Exercício 3</h3>
-                        </div>
-                    </Link>
+
+                    <Exesdiv
+                        Link='/ex3'
+                        h2='Valor total por quantidade'
+                        h3='Exercício 3'
+                        color='#37FFF3'
+                    />
+
 
                 </div>
             </section>

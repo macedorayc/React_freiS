@@ -10,13 +10,13 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin-left: 6rem;
+        margin: 0rem 4rem;
         margin-right: 6rem;
         margin-top: 4rem;
         gap: 15px;
 
         img {
-            width: 40px;
+            width: 50px;
             height: 40px;
         }
 
@@ -28,26 +28,26 @@
 
     .divisao {
         background-color: #B3FF37;
-        width: 1280px;
+        max-width: 1280px;
         height: 4px;
         border-radius: 12px;
-        margin-left: 6rem;
+        margin: 0rem 4rem;
         margin-top: 20px;
     }
 
     .quadro {
         background-color: #fff;
-        width: 1275px;
-        height: 213px;
-        margin-left: 6rem;
         border-radius: 12px;
-        margin-top: 3rem;
-
+        max-width: 1275px;
+        height: 213px;
+        margin:0rem 4rem;
 
         p {
             font: 400 16px "Roboto", sans-serif;
             text-align: center;
             padding-top: 5rem;
+            width: 1200px;
+            line-height: 16px;
             
         }
     }
@@ -119,7 +119,9 @@
             font: 700 16px "Roboto", sans-serif;
             color: #383131;
             margin-top: 1rem;
-            margin-left: 15rem;
+            text-align: right;
+            width: 490px;
+           
         }
     }
 }

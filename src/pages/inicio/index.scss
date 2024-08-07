@@ -18,67 +18,7 @@
             gap: 3.5rem;
 
 
-            a {
-                text-decoration: none;
-                .card {
-                    padding: 20px;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    justify-content: center;
-                    background-color: #fff;
-                    width: 215px;
-                    height: 158px;
-                    border-radius: 12px;
-                    gap: 10px;
-
-
-                    .um {
-                        background-color: #FFCE37;
-                        width: 60px;
-                        height: 60px;
-                        border-radius: 12px;
-                    }
-
-                    .dois {
-                        background-color: #B3FF37;
-                        width: 60px;
-                        height: 60px;
-                        border-radius: 12px;
-                    }
-
-                    .tres {
-                        background-color: #37FFF3;
-                        width: 60px;
-                        height: 60px;
-                        border-radius: 12px;
-                    }
-
-                    h2,
-                    h3 {
-                        font-family: "Roboto", sans-serif;
-                        color: #000000;
-                        margin: 0px;
-                        line-height: 16.41px
-
-                    }
-
-                    h2 {
-                        font-size: 16px;
-                        font-weight: 700;
-                      
-
-                    }
-
-                    h3 {
-                        font-size: 14px;
-                        font-weight: 400;
-
-                    }
-
-                    
-                }
-            }
+            
         }
     }
 }

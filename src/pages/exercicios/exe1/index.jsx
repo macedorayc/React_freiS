@@ -33,7 +33,7 @@ export default function Cupom() {
 
             <section className='quadro'>
                 <p>Implementar um programa em <b>Javascript</b> para calcular o valor final de uma compra a partir do valor da compra e do cupom de desconto.<b>O cupom diz quantos reais terá </b> 
-                <br />de desconto.</p>
+                de desconto.</p>
             </section>
 
             <section className='ex'>
