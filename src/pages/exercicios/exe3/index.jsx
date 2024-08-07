@@ -22,7 +22,7 @@ export default function TotalQtd() {
 
 
     return (
-        <div className='pagina-ex3'>
+        <div className='pagina-ex3 pagina'>
                  <Cabecalho />
             <section className='titulo'>
                 <Link to = '/'>

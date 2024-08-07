@@ -15,7 +15,7 @@ export default function Conversao() {
     }
 
     return (
-        <div className='pagina-ex2'>
+        <div className='pagina-ex2 pagina'>
                <Cabecalho />
 
             <section className='titulo'>
