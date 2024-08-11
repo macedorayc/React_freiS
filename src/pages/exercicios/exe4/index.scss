@@ -1,12 +1,12 @@
-.pagina-ex3 {
+.pagina-ex4 {
 
-    
+
     .divisao {
-        background-color: #37FFF3;
-  
+        background-color: #800db0;
+
     }
 
-   
+
     .ex {
         display: flex;
         flex-direction: column;
@@ -19,56 +19,50 @@
         .card {
             display: flex;
             flex-direction: column;
-            justify-content: end;
-            align-items: end;
-            padding: 20px 30px 20px 10px;
-            gap: 15px;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 30px;
             width: 647px;
             height: 194px;
             background-color: #fff;
             border-radius: 12px;
             box-shadow: 0px 7px 15px #adadad59;
+            position: relative;
 
             .conteudo {
+                margin-top: 20px;
+                margin-bottom: 0px;
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
                 align-items: center;
                 gap: 40px;
+                max-width: 100%;
+            }
 
+            .qtd {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
 
-                .qtd {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: end;
-                    justify-content: end;
-
-
-                    h2 {
-                        font: 700 16px "Roboto", sans-serif;
-                        color: #383131;
-                        margin-bottom: 10px;
-                        margin-left: 2rem;
-
-                    }
-
-                    input {
-                        max-width: 75px;
-                        padding: 12px 20px;
-                        border-radius: 12px;
-                        border: 1px solid #A5A5A5;
-                        outline: none;
-                        font: 400 14px "Roboto", sans-serif;
-
-
-                    }
+                h2 {
+                    font: 600 16px "Roboto", sans-serif;
+                    color: #383131;
+                    margin: 0px;
+                    text-align: start;
                 }
 
-
+                input {
+                    max-width: 120px;
+                    padding: 12px 20px;
+                    border-radius: 12px;
+                    border: 1px solid #A5A5A5;
+                    outline: none;
+                    font: 400 14px "Roboto", sans-serif;
+                }
             }
 
             button {
-
                 padding: 16px 85px;
                 background-color: #6278F7;
                 font: 500 14px "Roboto", sans-serif;
@@ -76,14 +70,17 @@
                 border-radius: 12px;
                 border: 1px solid #6278F7;
                 margin-top: 1rem;
+                position: absolute;
+                bottom: 20px;
+                right: 20px;
 
-
+                button:hover {
+                    background-color: #4d5ec0;
+                }
             }
 
-            button:hover {
 
-                background-color: #4d5ec0;
-            }
+
         }
 
         h3 {
@@ -92,8 +89,8 @@
             margin-top: 1rem;
             text-align: right;
             width: 680px;
-           
-        }
-    }
 
+        }
+
+    }
 }

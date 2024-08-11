@@ -45,7 +45,7 @@ export default function TotalQtd() {
 
                 <div className='card'>
                     
-                    <div className='acai'>
+                    <div className='conteudo'>
                         
                         <div className='qtd'>
                             <h2>Quantidade pequeno</h2>
