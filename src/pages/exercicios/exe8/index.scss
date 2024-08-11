@@ -1,15 +1,12 @@
-
-
-.pagina-ex2 {
-    
+.pagina-ex8 {
 
     .divisao {
-        background-color: #B3FF37;
-      
+        background-color: #7401a1;
+
     }
 
-    
-    
+
+
 
     .ex {
         display: flex;
@@ -18,7 +15,7 @@
         align-items: center;
         margin-top: 3rem;
         padding-bottom: 7rem;
-        
+
         .card {
             display: flex;
             flex-direction: column;
@@ -37,16 +34,17 @@
                 margin-bottom: 10px;
                 margin-top: 1rem;
                 margin-left: 2rem;
-                
+
             }
 
             input {
                 max-width: 393px;
                 width: 100%;
                 padding: 14px 10px;
-                border-radius:  12px;
+                border-radius: 12px;
                 border: 1px solid #A5A5A5;
-                font: 400 14px 'Roboto', sans-serif; ;
+                font: 400 14px 'Roboto', sans-serif;
+                ;
                 margin-left: 2rem;
                 margin-bottom: 1rem;
                 outline: none;
@@ -57,18 +55,20 @@
                 justify-content: right;
                 margin-right: 2rem;
             }
+
             button {
-                
+
                 padding: 16px 85px;
                 background-color: #6278F7;
                 font: 500 14px "Roboto", sans-serif;
                 color: #fff;
                 border-radius: 12px;
                 border: 1px solid #6278F7;
-           
-  
+
+
             }
-            button:hover{
+
+            button:hover {
 
                 background-color: #4d5ec0;
             }
@@ -77,10 +77,10 @@
         h3 {
             font: 700 16px "Roboto", sans-serif;
             color: #383131;
-          
+
             text-align: right;
             width: 490px;
-           
+
         }
     }
 }

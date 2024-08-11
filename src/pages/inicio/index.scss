@@ -1,6 +1,8 @@
 .pagina-inicio {
-    min-height: 100vh;
+    min-width: 100vh; 
+    padding-bottom: 30px;
     background-color: #F5F6FA;
+   
 
     section {
         display: flex;
@@ -18,7 +20,6 @@
             gap: 3.5rem;
 
 
-            
         }
     }
 }

@@ -7,6 +7,8 @@ import TotalQtd from './pages/exercicios/exe3';
 import Livro from './pages/exercicios/exe4';
 import Nota from './pages/exercicios/exe5';
 import Salario from './pages/exercicios/exe6';
+import Primarias from './pages/exercicios/exe7';
+import Temperatura from './pages/exercicios/exe8';
 
 
 export default function Navegacao() {
@@ -20,6 +22,8 @@ export default function Navegacao() {
                 <Route path='/ex4' element={<Livro />} />
                 <Route path='/ex5' element={<Nota />} />
                 <Route path='/ex6' element={<Salario/>} />
+                <Route path='/ex7' element={<Primarias/>} />
+                <Route path='/ex8' element={<Temperatura/>} />
                 <Route path='/sobre' element={<Sobre />} />
 
             </Routes>

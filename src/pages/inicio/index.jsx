@@ -38,7 +38,7 @@ export default function Inicio() {
                         Link='/ex4'
                         h2='Tempo por Pagina'
                         h3='Exercício 4'
-                        color='#800DB0'
+                        color='#ff37cd'
                     />
 
 
@@ -48,7 +48,7 @@ export default function Inicio() {
             </section>
 
             <section>
-                
+
 
                 <div className='exercicios'>
 
@@ -63,23 +63,26 @@ export default function Inicio() {
                         Link='/ex6'
                         h2='Calculo de Salario liquido'
                         h3='Exercício 6'
-                        color='#00fA9a'
+                        color='#078807'
                     />
 
 
                     <Exesdiv
-                        Link='/ex3'
-                        h2='Valor total por quantidade'
-                        h3='Exercício 3'
-                        color='#37FFF3'
+                        Link='/ex7'
+                        h2='Cores Primarias'
+                        h3='Exercício 7'
+                        color='#150c97'
                     />
 
                     <Exesdiv
-                        Link='/ex4'
-                        h2='Tempo por Pagina'
-                        h3='Exercício 4'
-                        color='#800DB0'
+                        Link='/ex8'
+                        h2='Situação temperatura'
+                        h3='Exercício 8'
+                        color='#7401a1'
                     />
+
+
+
 
 
                 </div>

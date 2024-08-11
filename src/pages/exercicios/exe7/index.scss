@@ -1,14 +1,11 @@
+.pagina-ex7 {
 
-
-.pagina-ex2 {
-    
-
+   
     .divisao {
-        background-color: #B3FF37;
-      
+        background-color: #150c97;
+     
     }
 
-    
     
 
     .ex {
@@ -16,40 +13,38 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
         margin-top: 3rem;
         padding-bottom: 7rem;
-        
+
         .card {
             display: flex;
             flex-direction: column;
-            justify-content: right;
+            justify-content: center;
             width: 476px;
-            height: 187px;
+            height: 295px;
             background-color: #fff;
             border-radius: 12px;
             box-shadow: 0px 7px 15px #adadad59;
-            gap: 1rem;
-            padding-bottom: 2rem;
 
             h2 {
                 font: 700 16px "Roboto", sans-serif;
                 color: #383131;
                 margin-bottom: 10px;
-                margin-top: 1rem;
                 margin-left: 2rem;
-                
+
             }
 
             input {
-                max-width: 393px;
+                max-width: 414px;
                 width: 100%;
                 padding: 14px 10px;
-                border-radius:  12px;
+                border-radius: 12px;
                 border: 1px solid #A5A5A5;
-                font: 400 14px 'Roboto', sans-serif; ;
+                outline: none;
+                font: 400 14px "Roboto", sans-serif;
                 margin-left: 2rem;
                 margin-bottom: 1rem;
-                outline: none;
             }
 
             div {
@@ -57,18 +52,21 @@
                 justify-content: right;
                 margin-right: 2rem;
             }
+
             button {
-                
+
                 padding: 16px 85px;
                 background-color: #6278F7;
                 font: 500 14px "Roboto", sans-serif;
                 color: #fff;
                 border-radius: 12px;
                 border: 1px solid #6278F7;
-           
-  
+                margin-top: 1rem;
+
+
             }
-            button:hover{
+
+            button:hover {
 
                 background-color: #4d5ec0;
             }
@@ -77,10 +75,11 @@
         h3 {
             font: 700 16px "Roboto", sans-serif;
             color: #383131;
-          
+            margin-top: 1rem;
             text-align: right;
-            width: 490px;
+            width: 487px;
            
         }
     }
+
 }
