@@ -53,17 +53,17 @@ export default function Inicio() {
                 <div className='exercicios'>
 
                     <Exesdiv
-                        Link='/ex1'
-                        h2='Cupom de desconto'
-                        h3='Exercício 1'
-                        color='#FFCE37'
+                        Link='/ex5'
+                        h2='Situação do Aluno'
+                        h3='Exercício 5'
+                        color='#b00d0d'
                     />
 
                     <Exesdiv
-                        Link='/ex2'
-                        h2='Converter Kg/gramas'
-                        h3='Exercício 2'
-                        color='#B3FF37'
+                        Link='/ex6'
+                        h2='Calculo de Salario liquido'
+                        h3='Exercício 6'
+                        color='#00fA9a'
                     />
 
 

@@ -13,7 +13,7 @@ export default function Livro() {
 
     function Tpp() {
     
-        const totalTempo = (pagina * tempo / 3600).toFixed(2);
+        const totalTempo = Number((pagina * tempo / 3600).toFixed(2));
         setTpp(totalTempo);
         setMostrarNome(nome);
         
@@ -30,7 +30,7 @@ export default function Livro() {
                 <Link to='/'>
                     <img src="/assets/images/voltar.png" alt="" />
                 </Link>
-                <h1>Exercício 04 - Valor total por quantidade</h1>
+                <h1>Exercício 04 - Tempo por pagina </h1>
             </section>
 
             <div className='divisao'></div>
