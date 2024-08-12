@@ -82,7 +82,23 @@ export default function Inicio() {
                     />
 
 
+                </div>
 
+
+            </section>
+
+            
+            <section>
+
+
+                <div className='exercicios'>
+
+                    <Exesdiv
+                        Link='/ex9'
+                        h2='Sorveteria'
+                        h3='Exercício 9'
+                        color='#D0D0D0'
+                    />
 
 
                 </div>

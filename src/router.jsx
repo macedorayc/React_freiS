@@ -9,6 +9,7 @@ import Nota from './pages/exercicios/exe5';
 import Salario from './pages/exercicios/exe6';
 import Primarias from './pages/exercicios/exe7';
 import Temperatura from './pages/exercicios/exe8';
+import Sorvete from './pages/exercicios/exe9';
 
 
 export default function Navegacao() {
@@ -24,7 +25,9 @@ export default function Navegacao() {
                 <Route path='/ex6' element={<Salario/>} />
                 <Route path='/ex7' element={<Primarias/>} />
                 <Route path='/ex8' element={<Temperatura/>} />
+                <Route path='/ex9' element={<Sorvete />} />
                 <Route path='/sobre' element={<Sobre />} />
+               0
 
             </Routes>
         </BrowserRouter>

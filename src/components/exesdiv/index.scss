@@ -4,12 +4,13 @@ a {
     text-decoration: none;
     .card {
         padding: 20px;
+        text-align: center;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         background-color: #fff;
-        width: 215px;
+        width: 180px;
         height: 158px;
         border-radius: 12px;
         gap: 10px;
@@ -25,8 +26,7 @@ a {
  
          
 
-        h2,
-        h3 {
+        h2,h3 {
             font-family: "Roboto", sans-serif;
             color: #000000;
             margin: 0px;
