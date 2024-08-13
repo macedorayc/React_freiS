@@ -48,7 +48,7 @@ export default function Tabuada() {
                     </div>
                 </div>
 
-                <div>
+                <div className='ali'>
                     {situacao.map((item, pos) => (
                         <h3 key={pos}>{item}</h3>
                     ))}

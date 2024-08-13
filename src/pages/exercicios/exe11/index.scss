@@ -74,13 +74,19 @@
             }
         }
 
-        h3 {
-            font: 700 16px "Roboto", sans-serif;
-            color: #383131;
+        .ali {
+            h3 {
+                font: 700 16px "Roboto", sans-serif;
+                color: #383131;
 
-            text-align: right;
-            width: 490px;
+                text-align: start;
+                width: 490px;
 
+            }
+            align-self: flex-end;
+            justify-self: end;
+        
         }
+
     }
 }
