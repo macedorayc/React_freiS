@@ -87,7 +87,7 @@ export default function Inicio() {
 
             </section>
 
-            
+
             <section>
 
 
@@ -100,6 +100,12 @@ export default function Inicio() {
                         color='#D0D0D0'
                     />
 
+                    <Exesdiv
+                        Link='/ex11'
+                        h2='Tabuada'
+                        h3='Exercício 11'
+                        color='#ff4800'
+                    />
 
                 </div>
 

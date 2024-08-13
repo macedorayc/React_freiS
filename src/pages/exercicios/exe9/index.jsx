@@ -14,12 +14,13 @@ export default function Sorvete() {
         let situa = ''
         let gra
     
-        if (gramas == 0){
+        if (gramas === 0){
             situa = 'Peso invalido'
         }
         
         else if (gramas < 1000){
            gra = gramas * 3.50/100
+
            situa = `O total a pagar é ${gra}`
         }
         
@@ -29,7 +30,7 @@ export default function Sorvete() {
         }     
 
 
-        setSituacao (situa)
+        setSituacao (situa).toFixed(2)
         setGramas (0)
         
     }
@@ -66,7 +67,7 @@ export default function Sorvete() {
                 
 
                 </div>
-                <h3>O total é {situacao} </h3>
+                <h3>O total a pagar é  R$ {situacao} </h3>
             </section>
         </div>
     )

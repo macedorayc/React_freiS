@@ -55,6 +55,10 @@ export default function Temperatura() {
                 <p>Implementar um programa em <b>Javascript</b> para <b>converter kilos em temperatura.</b></p>
             </section>
 
+            <div>
+                <img src="/assets/imges/temperatura.png" alt="" />
+            </div>
+
             <section className='ex'>
 
                 <div className='card'>
