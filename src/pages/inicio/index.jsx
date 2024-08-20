@@ -99,12 +99,26 @@ export default function Inicio() {
                         h3='Exercício 9'
                         color='#D0D0D0'
                     />
+                    
+                    <Exesdiv
+                        Link='/ex10'
+                        h2='Calculo de IMC com histórico'
+                        h3='Exercício 10'
+                        color='#B75333'
+                    />
 
                     <Exesdiv
                         Link='/ex11'
                         h2='Tabuada'
                         h3='Exercício 11'
                         color='#ff4800'
+                    />
+                    
+                    <Exesdiv
+                        Link='/ex12'
+                        h2='Comparador de pessoas'
+                        h3='Exercício 12'
+                        color='#FFCE37'
                     />
 
                 </div>
